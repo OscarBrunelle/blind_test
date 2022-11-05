@@ -10,6 +10,7 @@ function load() {
 }
 
 function start_blindtest() {
+	document.querySelector("#start_blindtest-button").remove();
 	document.querySelector("#counter").style.display = "grid";
 	document.querySelector("#song-title").style.display = "grid";
 	play_new_random_music();
