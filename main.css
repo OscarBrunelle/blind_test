@@ -1,0 +1,16 @@
+main {
+	height: 100vh;
+	padding: 20px;
+	display: grid;
+	gap: 20px;
+	justify-items: center;
+	align-items: center;
+}
+
+#counter {
+	width: 50%;
+	font-size: calc(min(50vw,50vh));
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
